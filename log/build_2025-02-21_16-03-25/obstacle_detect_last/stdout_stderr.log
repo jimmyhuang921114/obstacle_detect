@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/obstacle_detect_last/obstacle_detect_last.egg-info
+writing ../../build/obstacle_detect_last/obstacle_detect_last.egg-info/PKG-INFO
+writing dependency_links to ../../build/obstacle_detect_last/obstacle_detect_last.egg-info/dependency_links.txt
+writing entry points to ../../build/obstacle_detect_last/obstacle_detect_last.egg-info/entry_points.txt
+writing requirements to ../../build/obstacle_detect_last/obstacle_detect_last.egg-info/requires.txt
+writing top-level names to ../../build/obstacle_detect_last/obstacle_detect_last.egg-info/top_level.txt
+writing manifest file '../../build/obstacle_detect_last/obstacle_detect_last.egg-info/SOURCES.txt'
+reading manifest file '../../build/obstacle_detect_last/obstacle_detect_last.egg-info/SOURCES.txt'
+writing manifest file '../../build/obstacle_detect_last/obstacle_detect_last.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/darkdemon/ros2_ws/build/obstacle_detect_last/build
+creating /home/darkdemon/ros2_ws/build/obstacle_detect_last/build/lib
+creating /home/darkdemon/ros2_ws/build/obstacle_detect_last/build/lib/obstacle_detect_last
+copying obstacle_detect_last/__init__.py -> /home/darkdemon/ros2_ws/build/obstacle_detect_last/build/lib/obstacle_detect_last
+copying obstacle_detect_last/obs_detect.py -> /home/darkdemon/ros2_ws/build/obstacle_detect_last/build/lib/obstacle_detect_last
+copying obstacle_detect_last/open_rs.py -> /home/darkdemon/ros2_ws/build/obstacle_detect_last/build/lib/obstacle_detect_last
+copying obstacle_detect_last/obs_draw.py -> /home/darkdemon/ros2_ws/build/obstacle_detect_last/build/lib/obstacle_detect_last
+running install
+running install_lib
+creating /home/darkdemon/ros2_ws/install/obstacle_detect_last/lib/python3.10/site-packages/obstacle_detect_last
+copying /home/darkdemon/ros2_ws/build/obstacle_detect_last/build/lib/obstacle_detect_last/__init__.py -> /home/darkdemon/ros2_ws/install/obstacle_detect_last/lib/python3.10/site-packages/obstacle_detect_last
+copying /home/darkdemon/ros2_ws/build/obstacle_detect_last/build/lib/obstacle_detect_last/obs_detect.py -> /home/darkdemon/ros2_ws/install/obstacle_detect_last/lib/python3.10/site-packages/obstacle_detect_last
+copying /home/darkdemon/ros2_ws/build/obstacle_detect_last/build/lib/obstacle_detect_last/open_rs.py -> /home/darkdemon/ros2_ws/install/obstacle_detect_last/lib/python3.10/site-packages/obstacle_detect_last
+copying /home/darkdemon/ros2_ws/build/obstacle_detect_last/build/lib/obstacle_detect_last/obs_draw.py -> /home/darkdemon/ros2_ws/install/obstacle_detect_last/lib/python3.10/site-packages/obstacle_detect_last
+byte-compiling /home/darkdemon/ros2_ws/install/obstacle_detect_last/lib/python3.10/site-packages/obstacle_detect_last/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/darkdemon/ros2_ws/install/obstacle_detect_last/lib/python3.10/site-packages/obstacle_detect_last/obs_detect.py to obs_detect.cpython-310.pyc
+byte-compiling /home/darkdemon/ros2_ws/install/obstacle_detect_last/lib/python3.10/site-packages/obstacle_detect_last/open_rs.py to open_rs.cpython-310.pyc
+byte-compiling /home/darkdemon/ros2_ws/install/obstacle_detect_last/lib/python3.10/site-packages/obstacle_detect_last/obs_draw.py to obs_draw.cpython-310.pyc
+running install_data
+creating /home/darkdemon/ros2_ws/install/obstacle_detect_last/share/ament_index
+creating /home/darkdemon/ros2_ws/install/obstacle_detect_last/share/ament_index/resource_index
+creating /home/darkdemon/ros2_ws/install/obstacle_detect_last/share/ament_index/resource_index/packages
+copying resource/obstacle_detect_last -> /home/darkdemon/ros2_ws/install/obstacle_detect_last/share/ament_index/resource_index/packages
+copying package.xml -> /home/darkdemon/ros2_ws/install/obstacle_detect_last/share/obstacle_detect_last
+running install_egg_info
+Copying ../../build/obstacle_detect_last/obstacle_detect_last.egg-info to /home/darkdemon/ros2_ws/install/obstacle_detect_last/lib/python3.10/site-packages/obstacle_detect_last-0.0.0-py3.10.egg-info
+running install_scripts
+Installing obs_detect script to /home/darkdemon/ros2_ws/install/obstacle_detect_last/lib/obstacle_detect_last
+Installing obs_draw script to /home/darkdemon/ros2_ws/install/obstacle_detect_last/lib/obstacle_detect_last
+Installing open_rs script to /home/darkdemon/ros2_ws/install/obstacle_detect_last/lib/obstacle_detect_last
+writing list of installed files to '/home/darkdemon/ros2_ws/build/obstacle_detect_last/install.log'

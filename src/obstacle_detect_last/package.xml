@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>obstacle_detect_last</name>
+  <version>0.0.0</version>
+  <description>
+    ROS2 package for obstacle detection using YOLOv8 and RealSense camera.
+    This package includes nodes for RealSense image publishing, obstacle detection, and visualization.
+  </description>
+  <maintainer email="jimmyjimmyhuang1114@gmail.com">darkdemon</maintainer>
+  <license>Apache License 2.0</license>
+
+  <!-- ROS2 核心依賴 -->
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+
+  <!-- Python 依賴 -->
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>python3-opencv</exec_depend>
+  <exec_depend>python3-torch</exec_depend>
+  <exec_depend>python3-ultralytics</exec_depend>
+  <exec_depend>python3-scipy</exec_depend>
+  <exec_depend>python3-matplotlib</exec_depend>
+  <exec_depend>python3-pyrealsense2</exec_depend>
+
+  <!-- 測試依賴 -->
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

@@ -1,0 +1,5 @@
+[console_scripts]
+obs_detect = obstacle_detect_last.obs_detect:main
+obs_draw = obstacle_detect_last.obs_draw:main
+open_rs = obstacle_detect_last.open_rs:main
+

@@ -1,0 +1,26 @@
+[0.351s] Invoking command in '/home/darkdemon/ros2_ws/src/obstacle_detect_last': PYTHONPATH=/home/darkdemon/ros2_ws/build/obstacle_detect_last/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darkdemon/ros2_ws/install/obstacle_detect_last/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obstacle_detect_last build --build-base /home/darkdemon/ros2_ws/build/obstacle_detect_last/build install --record /home/darkdemon/ros2_ws/build/obstacle_detect_last/install.log --single-version-externally-managed install_data
+[0.488s] running egg_info
+[0.489s] writing ../../build/obstacle_detect_last/obstacle_detect_last.egg-info/PKG-INFO
+[0.489s] writing dependency_links to ../../build/obstacle_detect_last/obstacle_detect_last.egg-info/dependency_links.txt
+[0.489s] writing entry points to ../../build/obstacle_detect_last/obstacle_detect_last.egg-info/entry_points.txt
+[0.489s] writing requirements to ../../build/obstacle_detect_last/obstacle_detect_last.egg-info/requires.txt
+[0.489s] writing top-level names to ../../build/obstacle_detect_last/obstacle_detect_last.egg-info/top_level.txt
+[0.490s] reading manifest file '../../build/obstacle_detect_last/obstacle_detect_last.egg-info/SOURCES.txt'
+[0.490s] writing manifest file '../../build/obstacle_detect_last/obstacle_detect_last.egg-info/SOURCES.txt'
+[0.490s] running build
+[0.490s] running build_py
+[0.490s] copying obstacle_detect_last/obs_detect.py -> /home/darkdemon/ros2_ws/build/obstacle_detect_last/build/lib/obstacle_detect_last
+[0.490s] running install
+[0.491s] running install_lib
+[0.491s] copying /home/darkdemon/ros2_ws/build/obstacle_detect_last/build/lib/obstacle_detect_last/obs_detect.py -> /home/darkdemon/ros2_ws/install/obstacle_detect_last/lib/python3.10/site-packages/obstacle_detect_last
+[0.491s] byte-compiling /home/darkdemon/ros2_ws/install/obstacle_detect_last/lib/python3.10/site-packages/obstacle_detect_last/obs_detect.py to obs_detect.cpython-310.pyc
+[0.492s] running install_data
+[0.492s] running install_egg_info
+[0.493s] removing '/home/darkdemon/ros2_ws/install/obstacle_detect_last/lib/python3.10/site-packages/obstacle_detect_last-0.0.0-py3.10.egg-info' (and everything under it)
+[0.493s] Copying ../../build/obstacle_detect_last/obstacle_detect_last.egg-info to /home/darkdemon/ros2_ws/install/obstacle_detect_last/lib/python3.10/site-packages/obstacle_detect_last-0.0.0-py3.10.egg-info
+[0.494s] running install_scripts
+[0.505s] Installing obs_detect script to /home/darkdemon/ros2_ws/install/obstacle_detect_last/lib/obstacle_detect_last
+[0.506s] Installing obs_draw script to /home/darkdemon/ros2_ws/install/obstacle_detect_last/lib/obstacle_detect_last
+[0.506s] Installing open_rs script to /home/darkdemon/ros2_ws/install/obstacle_detect_last/lib/obstacle_detect_last
+[0.506s] writing list of installed files to '/home/darkdemon/ros2_ws/build/obstacle_detect_last/install.log'
+[0.519s] Invoked command in '/home/darkdemon/ros2_ws/src/obstacle_detect_last' returned '0': PYTHONPATH=/home/darkdemon/ros2_ws/build/obstacle_detect_last/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/darkdemon/ros2_ws/install/obstacle_detect_last/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/obstacle_detect_last build --build-base /home/darkdemon/ros2_ws/build/obstacle_detect_last/build install --record /home/darkdemon/ros2_ws/build/obstacle_detect_last/install.log --single-version-externally-managed install_data
