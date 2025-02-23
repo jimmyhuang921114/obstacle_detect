@@ -1,4 +1,3 @@
-README.md
 package.xml
 setup.cfg
 setup.py
@@ -13,6 +12,7 @@ obstacle_detect_last/__init__.py
 obstacle_detect_last/obs_detect.py
 obstacle_detect_last/obs_draw.py
 obstacle_detect_last/open_rs.py
+obstacle_detect_last/video_class.py
 resource/obstacle_detect_last
 test/test_copyright.py
 test/test_flake8.py

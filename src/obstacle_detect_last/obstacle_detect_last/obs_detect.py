@@ -29,7 +29,7 @@ class ObstacleDetectPublisher(Node):
             Float32MultiArray, '/obstacle/xy_list', 10)
 
         # 加載 YOLOv8 分割模型
-        self.model = YOLO("/home/darkdemon/ros2_ws/epoch90.pt")
+        self.model = YOLO("/home/darkdemon/farm_ws/src/obstacle_detect_last/obstacle_detect_last/epoch90.pt")
         self.device = 'cuda' if torch.cuda.is_available() else 'cpu'
         self.model.to(self.device)
         self.get_logger().info("YOLOv8 model loaded successfully.")
